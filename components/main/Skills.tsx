@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { skills } from "@/constants/skills";
-import { Tilt } from "react-tilt";
+
 import { IconCloudDemo } from "../sub/IconCloud";
 import { motion } from "framer-motion";
 import {
