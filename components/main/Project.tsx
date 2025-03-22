@@ -93,12 +93,11 @@ const Projects: React.FC = () => {
                 My Projects
               </span>
             </div>
-            <p className="text-gray-100 leading-relaxed">
+            <p className="text-gray-100">
               Here's some of my work.
             </p>
           </div>
         </motion.div>
-
         {/* Projects Carousel */}
         <motion.div
           variants={slideInFromLeft(0.8)}
@@ -121,7 +120,7 @@ const Projects: React.FC = () => {
                 >
                   {/* Project Card */}
                   <div
-                    className="relative flex-none w-[300px] sm:w-[600px] bg-[rgba(85,193,247,0.22)] backdrop-blur-xs border border-cyan-500 rounded-lg shadow-md overflow-hidden snap-start group transition-all duration-500 transform hover:-translate-y-3 hover:shadow-lg"
+                    className="relative flex-none w-[250px] sm:w-[600px] bg-[rgba(85,193,247,0.22)] backdrop-blur-xs border border-cyan-500 rounded-lg shadow-md overflow-hidden snap-start group transition-all duration-500 transform hover:-translate-y-3 hover:shadow-lg"
                   >
                     {/* Image */}
                     <Image
@@ -135,7 +134,7 @@ const Projects: React.FC = () => {
                     {/* Overlay */}
                     <div
                       className={`absolute inset-0 bg-black/80 flex flex-col items-center justify-center text-center opacity-0 transition-opacity duration-500 ${
-                        activeId === project.id
+                          activeId === project.id
                           ? "opacity-100"
                           : "group-hover:opacity-100"
                       }`}
@@ -153,6 +152,7 @@ const Projects: React.FC = () => {
             </div>
           </div>
         </motion.div>
+      <p className="text-gray-100 mt-6 text-center sm:hidden">Hold for Details.</p>
       </div>
     </section>
   );

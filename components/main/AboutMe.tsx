@@ -12,12 +12,12 @@ import { motion } from "framer-motion";
 interface TabContent {
     education: string[],
     achievements: string[];
-    offices: string[];
+    roles: string[];
     hobbies: string[];
 }
 
 const AboutMe: React.FC = () => {
-    const [activeTab, setActiveTab] = useState<'education' | 'achievements' | 'offices' | 'hobbies'>('achievements');
+    const [activeTab, setActiveTab] = useState<'education' | 'achievements' | 'roles' | 'hobbies'>('education');
 
     const tabContent: TabContent = {
         education: [
@@ -29,7 +29,7 @@ const AboutMe: React.FC = () => {
         achievements: [
             
         ],
-        offices: [
+        roles: [
             'Mar,23 – Jan,24: Member of ECELL Design and Events Team',
             'Dec,22 – Aug,23: Member of Electroholics',
             'Jul,23 – Aug,23: Member of OT for RoboWars (Flagship Event of ESYA)'
@@ -92,13 +92,13 @@ const AboutMe: React.FC = () => {
                         <div className="bg-[rgba(85,193,247,0.22)] backdrop-blur-xs p-4 rounded-lg shadow-md">
 
                             <div className="flex flex-wrap justify-center border-b-2 border-gray-200/20 mb-4">
-                                {['education', 'achievements', 'offices', 'hobbies'].map((tab, index) => (
+                                {['education', 'achievements', 'roles', 'hobbies'].map((tab, index) => (
                                     <button key={index}
                                         className={`px-6 py-3 transition-all cursor-pointer ${activeTab === tab
                                             ? 'text-blue-400 border-b-2 border-blue-400'
                                             : 'text-gray-100 hover:text-white'
                                         }`}
-                                        onClick={() => setActiveTab(tab as "education" | "achievements" | "offices" | "hobbies")}
+                                        onClick={() => setActiveTab(tab as "education" | "achievements" | 'roles' | "hobbies")}
 
                                     >
                                         {tab.charAt(0).toUpperCase() + tab.slice(1)}

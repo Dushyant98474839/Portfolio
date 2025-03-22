@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-md md:text-md sm:text-sm md:text-base text-gray-100 max-w-[600px] mx-auto lg:mx-0"
         >
-          I&apos;m a 3rd year CSE-Design Undergrad at IIIT-D. I'm a full-stack developer with experience in AI/ML. Check out my projects and skills!
+          I&apos;m a 3rd year CSE-Design Undergrad at IIIT-Delhi. I'm a full-stack developer with experience in AI/ML. Check out my projects and skills!
         </motion.p>
 
         <div className="flex flex-row gap-4 justify-center lg:justify-start">
