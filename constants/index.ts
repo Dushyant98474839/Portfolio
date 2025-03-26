@@ -89,7 +89,7 @@ export const Skill_data = [
     {
       name: "LinkedIn",
       src: "/linkdin.png",
-      href:""
+      href:"https://www.linkedin.com/in/dushyant-singh-86a3962b4/"
     },
     {
       name: "Github",
