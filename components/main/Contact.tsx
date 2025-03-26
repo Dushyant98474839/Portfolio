@@ -154,15 +154,15 @@ const ContactPage: React.FC = () => {
                 <SparklesIcon className="text-[#b49bff] ml-[-6px] mr-2 h-4 w-4" />
                 <h1 className="Welcome-text text-md  !text-white sm:text-md">Connect</h1>
               </button>
-            {/* </motion.div> */}
-          
+            </motion.div>
+          </form>          
 
-          {/* <motion.div
+          <motion.div
             variants={slideInFromBottom}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-          > */}
+          >
             <div className="flex flex-row justify-center mt-6">
               <div className="flex flex-row gap-4 mt-3">
                 {Socials.map((social) => (
@@ -185,7 +185,7 @@ const ContactPage: React.FC = () => {
             👾 Built by Dushyant 👾
             </h1>
           </motion.div>
-          </form>
+          
         </div>
       </div>
     </section>
