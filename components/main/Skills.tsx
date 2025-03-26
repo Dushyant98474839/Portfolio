@@ -72,7 +72,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                    <h1 className="text-gray-100 mb-8 z-20">Hover to check Fluency !</h1>
+{/*                     <h1 className="text-gray-100 mb-8 z-20">Hover to check Fluency !</h1> */}
                 {/* Skills Cards */}
                 <div className="flex flex-wrap justify-center gap-12">
                     <video
