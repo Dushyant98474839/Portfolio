@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
       title: "Dream Dot (A social media site)",
       description:
         "A secure social media platform with P2P marketplace and chat using Socket.io and MERN.",
-      imageSrc: "/chat.jpg",
+      imageSrc: "/chat.png",
       href: "https://github.com/riju-talk/DreamDot",
     },
     {
