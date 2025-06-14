@@ -29,6 +29,14 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Dream Dot (A social media site)",
+      description:
+        "A secure social media platform with P2P marketplace and chat using Socket.io and MERN.",
+      imageSrc: "/chat.jpg",
+      href: "https://github.com/riju-talk/DreamDot",
+    },
+    {
+      id: 2,
       title: "NuScene VQA",
       description:
         "Application of Visual Question Answering concepts to NuScenes dataset, a large-scale benchmark for autonomous driving scenarios.",
@@ -36,7 +44,7 @@ const Projects: React.FC = () => {
       href: "https://github.com/sujalsoni26/IP_VQA",
     },
     {
-      id: 5,
+      id: 3,
       title: "Visa Predictor",
       description:
         "An ML model for predicting H1-B visa approval outcomes with an accuracy of 65%.",
@@ -44,7 +52,7 @@ const Projects: React.FC = () => {
       href: "https://github.com/sujalsoni26/Visa-Acceptance-Prediction",
     },
     {
-      id: 2,
+      id: 4,
       title: "Veda",
       description:
         "An online medicine delivery website managing users, vendors, and medicines using SQL.",
@@ -52,7 +60,7 @@ const Projects: React.FC = () => {
       href: "https://github.com/Karan54820/Online-Medicine-Store-Vedaa",
     },
     {
-      id: 3,
+      id: 5,
       title: "Stick Hero",
       description:
         "A JavaFX video game with exciting challenges, animations, and sound effects.",
@@ -60,21 +68,14 @@ const Projects: React.FC = () => {
       href: "https://github.com/Dushyant98474839/Stick-Hero-Game",
     },
     {
-      id: 4,
+      id: 6,
       title: "DnD ChatBot",
       description:
         "An AI Dungeon Master chatbot using LLMs, Flask API, and vector databases.",
       imageSrc: "/dnd.png",
       href: "https://github.com/Dushyant98474839/chat-system",
     },
-    {
-      id: 6,
-      title: "Dream Dot (On Going)",
-      description:
-        "A secure social media platform with P2P marketplace and chat using Socket.io and MERN.",
-      imageSrc: "/projects/chat.jpg",
-      href: "https://github.com/Dushyant98474839/chat-system",
-    },
+    
   ];
 
   return (
