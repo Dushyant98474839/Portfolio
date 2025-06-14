@@ -55,7 +55,7 @@ const HeroContent = () => {
           className="Welcome-box py-2 px-4 cursor-pointer border border-[#7042f88b] opacity-[0.9] flex items-center justify-center max-w-[150px] mx-auto lg:mx-0"
         >
           <SparklesIcon className="text-[#b49bff] ml-[-6px] mr-2 h-4 w-4" />
-          <a href="https://docs.google.com/document/d/1-YieAXIm5Bnp-0O5j30RPzE9uMU0LjjM/edit?usp=sharing&ouid=116790925751314179849&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1usz7IrpdQ_EzncnP4l_BDwFYsTBwXYmt/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <h1 className="Welcome-text text-md md:text-md sm:text-sm">Resume</h1>
           </a>
         </motion.div>
